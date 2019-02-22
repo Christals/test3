@@ -1,0 +1,129 @@
+/* 小米闪购 */
+.millSale{
+	width: 1366px;
+    height: 585px;
+    margin-top:50px;
+    overflow: hidden;
+}
+.millCenter{
+	width: 1228px;
+	height: 585px;
+	margin: 0 auto;
+}
+
+/* 小米限时购买 */
+.millSale-center{
+	width: 1228px;
+	height: 281px;
+}
+
+/* 小米倒计时区 */
+.millSale-center .flash-sale1{
+	width: 235px;
+	height: 281px;
+	float: left;
+	text-align: center;
+    padding-top: 60px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+	/* background: #f1eded url(../images/index/flash_03.jpg) no-repeat 102px 111px; */
+}
+.millSale-center img{
+    width:235px;
+    height: 300px;
+}
+/* 小米折扣优惠区 */
+.discount {
+	float: left;
+	width: 992px;
+	height: 341px;
+}
+.discount .discount1{
+	float: left;
+	text-align: center;
+	border-top: 1px solid #ffac13;
+	margin-left: 14px;
+	width: 234px;
+	height: 341px;
+	background: #fff;
+}
+.discount .discount1 span{
+	display: inline-block;
+	width: 64px;
+	height: 20px;
+	line-height: 20px;
+	background: #83c44e;
+	font-size: 11px;
+	color:#fff;
+}
+.discount .discount1 .col_red{
+    background: #e53935;
+}
+.discount .discount1 .shop-image {
+	width: 235px;
+	height: 210px;
+}
+.discount .discount1 .shop-image img{
+    vertical-align: middle;
+    width: 120px;
+    height: 120px;
+}
+.discount .discount1 .shop-image i{
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+}
+.discount .discount1 h3{
+	display: block;
+	margin-bottom: 11px;
+	font-size: 13px;
+	color:#202020;
+}
+.discount .discount1 .desc{
+	font-size: 12px;
+	color:#adadad;
+}
+.discount .discount1 .price{
+	display: block;
+	margin-top: 20px;
+	font-size: 12px;
+}
+.discount .discount1 .price em{
+	color:#ff6700;
+}
+.discount .discount1 .price del{
+	color:#adadad;
+}
+
+/* 小米结束 */
+/* 手机开始 */
+.iPhone,.iPhone .millCenter{
+	height: 864px;
+	background:  #fafafa;;
+}
+.millSale-center .rightPhone{
+	height: 614px;
+	padding-top: 0px;
+}
+.leftPhone{
+	height: 614px;
+}
+.leftPhone .discount1{
+   height: 300px;
+   border-top: none;
+   margin-bottom: 14px;
+   background: #fff;
+}
+.leftPhone .discount1:hover{
+    box-shadow:2px 4px 10px #b5b5b5;
+}
+.leftPhone .discount1 .shop-image {
+	height: 171px;
+}
+.leftPhone .discount1 h3 {
+	margin-bottom: 8px;
+}
+.leftPhone .discount1 .price {
+	margin-top: 18px;
+}
